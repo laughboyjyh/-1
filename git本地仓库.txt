@@ -1,0 +1,21 @@
+查看配置信息
+git config --global user.name
+git config --global user.email
+
+
+初始化当前目录为本地仓库
+git init 
+
+操作指令
+1.git add (工作区->暂存区)
+2.git commit(暂存区->本地仓库)
+3.git status (查看修改的状态)
+4.git log [option](查看日志)
+option:
+--all(显示所有)
+--pretty=oneline(提交信息显示为一行)
+--abbrev-commit(输出commitId更简单)
+--graph (以图形式显示)
+5.git reset --hard commitID 版本切换
+6.git reflog 查看已删除的提交记录
+7.
