@@ -1,3 +1,6 @@
+git远程仓库
+1111111111111
+
 查看配置信息
 git config --global user.name
 git config --global user.email
@@ -35,5 +38,3 @@ option:
 git branch -d b1 删除分支时，需要做各种检查
 git branch -D b1 不做任何检查,强制删除
 
-git远程仓库
-1111111111111
