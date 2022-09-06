@@ -18,4 +18,22 @@ option:
 --graph (以图形式显示)
 5.git reset --hard commitID 版本切换
 6.git reflog 查看已删除的提交记录
-7.
+
+分支
+命令:git branch
+3.4.2、创建本地分支
+命令：git branch 分支名
+3.4.4、切换分支(checkout)
+命令：git checkout 分支名
+我们还可以直接切换到一个不存在的分支（创建并切换）
+命令：git checkout -b 分支名
+3.4.6、*合并分支(merge)
+一个分支上的提交可以合并到另一个分支
+命令：git merge 分支名称
+3.4.7、删除分支
+不能删除当前分支，只能删除其他分支
+git branch -d b1 删除分支时，需要做各种检查
+git branch -D b1 不做任何检查,强制删除
+
+git远程仓库
+1111111111111
